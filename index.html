@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input Field | Developer Zone </title>
+    <!-- Link Style.css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-box">
+        <img src="https://raw.githubusercontent.com/Zilleali/developer-zone/main/assets/img/fav.ico">
+        <h2>Member Login</h2>
+        <form>
+          <input type="text" placeholder="Username">
+          <input type="password" placeholder="Password" onkeyup="password_length(event);">
+          <div class="bar_container">
+                    <div id="password-length"></div>
+
+                </div>
+          <button>Sign In</button>
+        </form>
+        <br>
+        <a href="#">Forgot Password?</a>
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
